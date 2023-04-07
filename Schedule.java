@@ -86,7 +86,7 @@ public class Schedule {//class
     
     public void countAndSort(ArrayList<Presentation> ps, ArrayList<Student> ss){ //here is to sort student's preference and I will use bubble sort here
 		//will continue because I was sick on April 6.
-		
+		//I was sick on April 6 and I have French test on April 5 and Multi Variable Test and a French quiz on April 7, so I did something but not a lot. But I think I could finish my project on April 8, and leave some time to revision.
 	}
     
 }//close class
