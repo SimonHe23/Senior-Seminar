@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * presentation management
  */
-public class Presentation {
+public class Presentation {//class
 	private Integer id;//presentation ID
 	private String name;// presentation name
 	private String description;// the description on the presentation 
@@ -15,60 +15,60 @@ public class Presentation {
 	public Presentation() {
 	}
 
-	public Presentation(Integer id, String name, String description, ArrayList<Integer> periods, ArrayList<Integer> sids, Integer count) {
+	public Presentation(Integer id, String name, String description, ArrayList<Integer> periods, ArrayList<Integer> sids, Integer count) { //constructor
 		this.id = id;
 		this.name = name;
 		this.description = description;
 		this.periods = periods;
 		this.sids = sids;
 		this.count = count;
-	}
+	}//close constructor
 
-	public Integer getId() {
+	public Integer getId() {//method
 		return id;
-	}
+	}//close method
 
-	public void setId(Integer id) {
+	public void setId(Integer id) {//method
 		this.id = id;
-	}
+	}//close method
 
-	public String getName() {
+	public String getName() {//method
 		return name;
-	}
+	}//close method
 
-	public void setName(String name) {
+	public void setName(String name) {//method
 		this.name = name;
-	}
+	}//close method
 
-	public String getDescription() {
+	public String getDescription() {//method
 		return description;
-	}
+	}//close method
 
-	public void setDescription(String description) {
+	public void setDescription(String description) {//method
 		this.description = description;
-	}
+	}//close method
 
-	public ArrayList<Integer> getPeriods() {
+	public ArrayList<Integer> getPeriods() {//method
 		return periods;
-	}
+	}//close method
 
-	public void setPeriods(ArrayList<Integer> periods) {
+	public void setPeriods(ArrayList<Integer> periods) {//method
 		this.periods = periods;
-	}
+	}//close method
 
-	public ArrayList<Integer> getSids() {
+	public ArrayList<Integer> getSids() {//method
 		return sids;
-	}
+	}//close method
 
-	public void setSids(ArrayList<Integer> sids) {
+	public void setSids(ArrayList<Integer> sids) {//method
 		this.sids = sids;
-	}
+	}//close method
 
-	public Integer getCount() {
+	public Integer getCount() {//method
 		return count;
-	}
+	}//close method
 
 	public void setCount(Integer count) {
 		this.count = count;
-	}
-}
+	}//close method
+}//class

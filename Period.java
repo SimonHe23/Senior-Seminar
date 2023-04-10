@@ -4,7 +4,7 @@ import java.util.List;
 /**
  * peroid information
  */
-public class Period {
+public class Period {//class
 	private Integer id; //presentation ID
 	private Integer index;//peroid number Index
 	private String periodName;
