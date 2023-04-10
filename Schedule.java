@@ -216,11 +216,17 @@ public class Schedule {
     }
 
     private void saveCSV() {
+        System.out.println();
+        System.out.println();
+        System.out.println();
         System.out.println("Period Name,ClassRoom,Presentation,Presentation ID,Presentation Description");
         for (Period period : periods) {
             System.out.println(period.getPeriodName() + "," + period.getClassRoom() + "," + period.getPresentations().getName() + ","
                     + period.getPresentations().getId() + "," + period.getPresentations().getDescription());
         }
+        System.out.println();
+        System.out.println();
+        System.out.println();
         System.out.println("Student Name,Times,Period Name,ClassRoom,Presentation,Presentation ID,Presentation Description");
 
         for (Student student : students) {
